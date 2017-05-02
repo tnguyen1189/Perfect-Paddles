@@ -1,3 +1,25 @@
-body {
-    background: url(kayak-bkgd.jpg) fixed;
+p {color: tomato}
+
+header { 
+font-size: 44px; 
+background-color: tomato; 
+margin: 33px; 
+padding: 22px, 0; 
+text-align: center; 
+height:20px; 
+body    {
+    bbackground: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+        }
+}
+
+.container {
+   font-size: 32px;
+   width: 1140px;
+   background-color: grey;
+   text-align: center; 
+   
 }
