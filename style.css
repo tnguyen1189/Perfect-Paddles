@@ -4,18 +4,27 @@ header {
 font-size: 44px; 
 background-color: tomato; 
 margin: 33px; 
-padding: 22px, 0; 
+padding: 22px; 
 text-align: center; 
 height:20px; 
+}
+
 body    {
-    bbackground: url(images/bg.jpg) no-repeat center center fixed; 
+    background:tomato; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
         }
-}
 
+nav ul {margin: 0 }
+
+nav ul li {display: inline-block;
+          list-style-type: none;
+          background: black;
+          margin: 5px 15px
+          }
+          
 .container {
    font-size: 32px;
    width: 1140px;
