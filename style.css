@@ -145,13 +145,13 @@ a:hover {
       from(rgba(0, 0, 0, .35)),
       to(rgba(0, 0, 0, .25))
     ),
-    url('file:///Users/trangnguyen/Desktop/Perfect%20Paddles/images/kayak-bkgd.jpg');
+    url('https://github.com/tnguyen1189/Perfect-Paddles/blob/master/images/kayak-bkgd.jpg');
   background: linear-gradient(
       to top,
       rgba(0, 0, 0, .35) 0%,
       rgba(0, 0, 0, .25) 100%
     ),
-    url('file:///Users/trangnguyen/Desktop/Perfect%20Paddles/images/kayak-bkgd.jpg');
+    url('https://github.com/tnguyen1189/Perfect-Paddles/blob/master/images/kayak-bkgd.jpg');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
