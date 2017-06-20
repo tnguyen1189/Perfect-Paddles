@@ -27,6 +27,22 @@
   src: url('fonts/Pacifico.ttf') format('truetype');
 }
 
+
+.screen-reader-text:focus {
+   clip: auto !important;
+   display: block;
+   height: auto;
+   left: 5px;
+   top: 5px;
+   width: auto;
+   z-index: 100000;
+}
+
+#main a:hover {
+    color: black
+    ;
+}
+
 /**
  * style start
  **/
@@ -119,7 +135,12 @@ footer nav ul {
 }
 
 footer ul li {
-  margin: .5em;
+  margin: 1em; 
+}
+
+i {
+  color: white;
+  width: 25px; 
 }
 
 p {
@@ -144,7 +165,7 @@ a:hover {
       rgba(0, 0, 0, .35) 0%,
       rgba(0, 0, 0, .25) 100%
     ),
-    url('./images/kayak-bkgd.jpg');
+    url('images/kayak-bkgd.jpg');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -397,6 +418,12 @@ select {
 
    footer nav ul li {
     margin: .25em .5em;
+     
+   }
+
+   i {
+     color: white;
+     width: 25px; 
    }
 
    .banner p {
